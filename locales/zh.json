@@ -1,0 +1,84 @@
+{
+  "menu": {
+    "serp_checker": "SERP检测器",
+    "light": "亮色",
+    "dark": "暗色",
+    "system": "系统"
+  },
+  "frontend": {
+    "go_to_homepage": "返回首页",
+    "page_not_found": "页面未找到",
+    "home": {
+      "position": "位置",
+      "type": "SERP类型",
+      "title": "标题",
+      "results_for": "“{query}”的搜索结果",
+      "views": {
+        "preview": "预览"
+      },
+      "look_up": "查找",
+      "form": {
+        "query": {
+          "error": {
+            "message": "查询至少需要2个字符。"
+          }
+        }
+      },
+      "faq": {
+        "title": "常见问题",
+        "qa1": {
+          "question": "如何提高我的网站在SERP上的排名？",
+          "answer": "要提高你的网站在搜索引擎结果页面（SERP）上的排名，可以采用以下方法：\n\n- **搜索引擎优化（SEO）**：\n  优化网站内容、结构和代码，提升在有机搜索结果中的排名。\n\n- **关键词研究**：\n  选择并使用与你的业务相关的高流量关键词。\n\n- **高质量内容**：\n  创建有价值、原创和与用户搜索需求相关的内容。\n\n- **网站性能优化**：\n  提高网站的加载速度和移动设备兼容性。\n\n- **获取高质量的反向链接**：\n  从其他权威网站获取链接，提升你网站的权威性。\n"
+        },
+        "qa2": {
+          "question": "什么是Google SERP特性？",
+          "answer": "Google SERP特性是出现在搜索引擎结果页面上的特殊结果，例如丰富的结果。其中包括：\n\n- 突出显示的摘录\n- 人们也在问的框\n- 知识面板\n- 本地包结果\n- 视频和图像轮播\n"
+        },
+        "qa3": {
+          "question": "为什么要使用SERP检测工具？",
+          "answer": "SERP检测工具可以帮助您：\n\n- 跟踪您网站的排名\n- 分析来自不同国家和地区的SERP\n- 查看各种语言的SERP\n- 监控丰富结果的存在\n- 查看任意位置的SERP\n"
+        },
+        "qa4": {
+          "answer": "是的，我们的SERP检测工具是免费的。将来可能会有一些使用限制。",
+          "question": "SERP检测工具永久免费吗？"
+        },
+        "qa5": {
+          "question": "您提供SERP检测工具的API吗？",
+          "answer": "是的，我开发了一个SERP API，并通过[SERP.ING](https://www.serp.ing)提供。这是行业内成本效益最高的SERP API，包括所有主要的丰富结果。"
+        }
+      }
+    },
+    "serp": {
+      "featured_snippets": "突出显示的摘录",
+      "people_also_ask": "人们也在问",
+      "things_to_know": "需要了解的内容",
+      "x": "X",
+      "twitter": {
+        "post": {
+          "posted_on": "发布于"
+        }
+      },
+      "top_stories": {
+        "title": "热门新闻"
+      },
+      "images": "图片",
+      "videos": "视频",
+      "places": "地点",
+      "related_searches": "相关搜索",
+      "download_csv": "下载 CSV 文件"
+    },
+    "meta": {
+      "default": {
+        "title": "SERP检测 - 免费的快速、准确的Google排名和丰富结果检测工具",
+        "description": "使用我们的免费SERP检测工具分析来自230多个国家的结果。了解丰富结果、前100名排名等信息。立即通过SERP检测增强您的SEO！"
+      }
+    },
+    "desktop": "桌面版",
+    "snapshot": "快照"
+  },
+  "home": {
+    "status": {
+      "online_google": "在线谷歌"
+    }
+  }
+}

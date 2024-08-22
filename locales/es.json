@@ -1,0 +1,84 @@
+{
+  "menu": {
+    "serp_checker": "Verificador de SERP",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  },
+  "frontend": {
+    "go_to_homepage": "Ir a la página de inicio",
+    "page_not_found": "Página no encontrada",
+    "home": {
+      "position": "Posición",
+      "type": "Tipo de SERP",
+      "title": "Título",
+      "results_for": "Resultados para \"{query}\"",
+      "views": {
+        "preview": "Vista previa"
+      },
+      "look_up": "Buscar",
+      "form": {
+        "query": {
+          "error": {
+            "message": "La consulta debe tener al menos 2 caracteres."
+          }
+        }
+      },
+      "faq": {
+        "title": "Preguntas frecuentes",
+        "qa1": {
+          "question": "¿Cómo puedo mejorar la clasificación de mi sitio web en el SERP?",
+          "answer": "Para mejorar el ranking de tu sitio web en los SERP, puedes usar los siguientes métodos:\n\n- **Optimización para motores de búsqueda (SEO)**:\nOptimiza el contenido, la estructura y el código de tu sitio web para mejorar su posición en los resultados de búsqueda orgánica.\n\n- **Investigación de palabras clave**:\nElige y usa palabras clave con alto tráfico relevantes para tu negocio.\n\n- **Contenido de alta calidad**:\nCrea contenido valioso, original y relevante que satisfaga las necesidades de búsqueda de los usuarios.\n\n- **Optimización del rendimiento del sitio web**:\nMejora la velocidad de carga de tu sitio web y su compatibilidad móvil.\n\n- **Adquirir backlinks de calidad**:\nObtén enlaces de otros sitios web autorizados para aumentar la autoridad de tu sitio.\n"
+        },
+        "qa2": {
+          "question": "¿Qué son las características de SERP de Google?",
+          "answer": "Las características de SERP de Google son resultados especiales que aparecen en la página de resultados del motor de búsqueda, como los resultados enriquecidos. Estos incluyen:\n\n- Fragmentos destacados\n- Cajas de 'La gente también pregunta'\n- Paneles de conocimiento\n- Resultados del paquete local\n- Carruseles de videos e imágenes\n"
+        },
+        "qa3": {
+          "question": "¿Por qué usar una herramienta de verificación de SERP?",
+          "answer": "Una herramienta de verificación de SERP le ayuda a:\n\n- Rastrear la clasificación de su sitio web\n- Analizar SERP de diferentes países y regiones\n- Ver SERP en varios idiomas\n- Monitorear la presencia de resultados enriquecidos\n- Ver SERP desde cualquier ubicación\n"
+        },
+        "qa4": {
+          "answer": "Sí, nuestro verificador de SERP es gratuito. En el futuro, puede haber algunos límites de uso.",
+          "question": "¿El verificador de SERP es gratuito para siempre?"
+        },
+        "qa5": {
+          "question": "¿Proporcionan una API de verificación de SERP?",
+          "answer": "Sí, he desarrollado una API de SERP y la ofrezco a través de [SERP.ING](https://www.serp.ing). Es la API de SERP más rentable de la industria, incluyendo todos los resultados enriquecidos principales."
+        }
+      }
+    },
+    "serp": {
+      "featured_snippets": "Fragmentos destacados",
+      "people_also_ask": "La gente también pregunta",
+      "things_to_know": "Cosas que saber",
+      "x": "X",
+      "twitter": {
+        "post": {
+          "posted_on": "Publicado en"
+        }
+      },
+      "top_stories": {
+        "title": "Principales noticias"
+      },
+      "images": "Imágenes",
+      "videos": "Vídeos",
+      "places": "Lugares",
+      "related_searches": "búsquedas relacionadas",
+      "download_csv": "Descargar CSV"
+    },
+    "meta": {
+      "default": {
+        "title": "Verificación de SERP - Verificador de SERP gratuito para resultados precisos y rápidos de Google Rank y resultados enriquecidos",
+        "description": "Use nuestro verificador de SERP gratuito para analizar resultados de más de 230 países. Obtenga información sobre resultados enriquecidos, los 100 mejores rankings y más. ¡Mejore su SEO con la verificación de SERP ahora!"
+      }
+    },
+    "desktop": "Escritorio",
+    "snapshot": "Instantánea"
+  },
+  "home": {
+    "status": {
+      "online_google": "Google en línea"
+    }
+  }
+}

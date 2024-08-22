@@ -1,0 +1,84 @@
+{
+  "menu": {
+    "serp_checker": "Serp Kontrolcüsü",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
+  },
+  "frontend": {
+    "go_to_homepage": "Ana sayfaya git",
+    "page_not_found": "Sayfa bulunamadı",
+    "home": {
+      "position": "Pozisyon",
+      "type": "Serp Türü",
+      "title": "Başlık",
+      "results_for": "\"{query}\" için sonuçlar",
+      "views": {
+        "preview": "Önizleme"
+      },
+      "look_up": "Ara",
+      "form": {
+        "query": {
+          "error": {
+            "message": "Arama sorgusu en az 2 karakter olmalıdır."
+          }
+        }
+      },
+      "faq": {
+        "title": "SSS",
+        "qa1": {
+          "question": "Web sitemin SERP üzerindeki sıralamasını nasıl iyileştirebilirim?",
+          "answer": "För att förbättra din webbplats ranking på SERP (sökmotorresultatsidan) kan du använda följande metoder:\n\n- **Sökmotoroptimering (SEO)**:\n  Optimera din webbplats innehåll, struktur och kod för att förbättra dess ranking i organiska sökresultat.\n\n- **Sökordsanalys**:\n  Välj och använd högtrafikerade sökord relevanta för ditt företag.\n\n- **Högkvalitativt innehåll**:\n  Skapa värdefullt, originalt och relevant innehåll som möter användarnas sökbehov.\n\n- **Optimering av webbplatsprestanda**:\n  Förbättra din webbplats laddningstid och mobilkompatibilitet.\n\n- **Få högkvalitativa tillbakalänkar**:\n  Skaffa länkar från andra auktoritära webbplatser för att öka din webbplats auktoritet.\n"
+        },
+        "qa2": {
+          "question": "Google SERP Özellikleri nedir?",
+          "answer": "Google SERP özellikleri, zengin sonuçlar gibi arama motoru sonuç sayfasında görünen özel sonuçlardır. Bunlar şunları içerir:\n\n- Öne Çıkan Parçacıklar\n- İnsanlar da Sordu kutuları\n- Bilgi Panelleri\n- Yerel Paket sonuçları\n- Video ve Görüntü Karuselleri\n"
+        },
+        "qa3": {
+          "question": "Neden Bir SERP Kontrol Aracı Kullanmalıyım?",
+          "answer": "Bir SERP kontrol aracı, aşağıdaki şekillerde size yardımcı olur:\n\n- Web sitenizin sıralamasını takip etmek\n- Farklı ülkeler ve bölgelerden SERP'leri analiz etmek\n- Çeşitli dillerde SERP'leri görüntülemek\n- Zengin Sonuçların varlığını izlemek\n- Herhangi bir konumdan SERP'leri görüntülemek\n"
+        },
+        "qa4": {
+          "answer": "Evet, SERP kontrolcümüz ücretsizdir. Gelecekte bazı kullanım sınırlamaları olabilir.",
+          "question": "SERP Kontrolcüsü Sonsuza Kadar Ücretsiz mi?"
+        },
+        "qa5": {
+          "question": "Bir SERP Kontrolcüsü API Sunuyor musunuz?",
+          "answer": "Evet, bir SERP API geliştirdim ve [SERP.ING](https://www.serp.ing) aracılığıyla sunuyorum. Endüstrideki en maliyet etkin SERP API'sidir ve tüm önemli Zengin Sonuçları içerir."
+        }
+      }
+    },
+    "serp": {
+      "featured_snippets": "Öne Çıkan Parçacıklar",
+      "people_also_ask": "İnsanlar da Sordu",
+      "things_to_know": "Bilmeniz Gerekenler",
+      "x": "X",
+      "twitter": {
+        "post": {
+          "posted_on": "Yayınlandı"
+        }
+      },
+      "top_stories": {
+        "title": "En Çok Okunan Haberler"
+      },
+      "images": "Görüntüler",
+      "videos": "Videolar",
+      "places": "Yer",
+      "related_searches": "ilgili aramalar",
+      "download_csv": "CSV'yi indirin"
+    },
+    "meta": {
+      "default": {
+        "title": "SERP Kontrol - Hızlı, Doğru Google Sıralama ve Zengin Sonuçlar için Ücretsiz SERP Kontrolcüsü",
+        "description": "Ücretsiz SERP kontrolcümüzü kullanarak 230'dan fazla ülkeden sonuçları analiz edin. Zengin Sonuçlar, ilk 100 sıralama ve daha fazlası hakkında bilgi edinin. SEO'nuzu SERP Kontrol ile güçlendirin!"
+      }
+    },
+    "desktop": "Masaüstü",
+    "snapshot": "Enstantane fotoğraf"
+  },
+  "home": {
+    "status": {
+      "online_google": "Çevrimiçi Google"
+    }
+  }
+}

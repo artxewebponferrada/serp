@@ -1,0 +1,25 @@
+{
+  "frontend": {
+    "home": {
+      "faq": {
+        "qa1": {
+          "answer": "Um das Ranking Ihrer Website in den SERP zu verbessern, können Sie die folgenden Methoden verwenden:\n\n- **Suchmaschinenoptimierung (SEO)**:\nOptimieren Sie den Inhalt, die Struktur und den Code Ihrer Website, um das Ranking in den organischen Suchergebnissen zu verbessern.\n\n- **Keyword-Recherche**:\nWählen und verwenden Sie Keywords mit hohem Traffic, die für Ihr Geschäft relevant sind.\n\n- **Hochwertige Inhalte**:\nErstellen Sie wertvolle, originale und relevante Inhalte, die den Suchbedürfnissen der Nutzer entsprechen.\n\n- **Optimierung der Website-Performance**:\nVerbessern Sie die Ladegeschwindigkeit Ihrer Website und deren mobile Kompatibilität.\n\n- **Erwerb qualitativ hochwertiger Backlinks**:\nErhalten Sie Links von anderen autoritativen Websites, um die Autorität Ihrer Website zu erhöhen.\n",
+          "question": "Wie kann ich das Ranking meiner Website in den SERP verbessern?"
+        }
+      }
+    },
+    "serp": {
+      "images": "Bilder",
+      "videos": "Videos",
+      "places": "Setzt",
+      "related_searches": "Verwandte Suchanfragen",
+      "download_csv": "CSV herunterladen"
+    },
+    "snapshot": "Schnappschuss"
+  },
+  "home": {
+    "status": {
+      "online_google": "Online-Google"
+    }
+  }
+}

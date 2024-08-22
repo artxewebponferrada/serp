@@ -1,0 +1,85 @@
+{
+  "menu": {
+    "serp_checker": "Serp Checker",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  },
+  "frontend": {
+    "go_to_homepage": "Go to homepage",
+    "page_not_found": "Page not found",
+    "home": {
+      "position": "Position",
+      "type": "Serp Type",
+      "title": "Title",
+      "results_for": "Results for \"{query}\"",
+      "views": {
+        "preview": "Preview"
+      },
+      "look_up": "Look Up",
+      "form": {
+        "query": {
+          "error": {
+            "message": "Query must be at least 2 characters."
+          }
+        }
+      },
+      "faq": {
+        "title": "Faqs",
+        "qa1": {
+          "question": "How can I improve my website's ranking on the SERP?",
+          "answer": "To improve your website's ranking on the SERP, you can use the following methods:\n\n- **Search Engine Optimization (SEO)**:\nOptimize your website's content, structure, and code to enhance its ranking in organic search results.\n\n- **Keyword Research**:\nChoose and use high-traffic keywords relevant to your business.\n\n- **High-Quality Content**:\nCreate valuable, original, and relevant content that meets users' search needs.\n\n- **Website Performance Optimization**:\nImprove your website's loading speed and mobile compatibility.\n\n- **Acquire Quality Backlinks**:\nObtain links from other authoritative websites to increase your site's authority.\n"
+        },
+        "qa2": {
+          "question": "What are Google SERP Features?",
+          "answer": "Google SERP features are special results that appear on the search engine results page, such as Rich Results. These include:\n\n- Featured Snippets\n- People Also Ask boxes\n- Knowledge Panels\n- Local Pack results\n- Video and Image Carousels\n"
+        },
+        "qa3": {
+          "question": "Why Use a SERP Checker Tool?",
+          "answer": "A SERP checker tool helps you:\n\n- Track your website's ranking\n- Analyze SERPs from different countries and regions\n- View SERPs in various languages\n- Monitor the presence of Rich Results\n- View SERPs from any location\n"
+        },
+        "qa4": {
+          "answer": "Yes, our SERP checker is free. In the future, there may be some usage limits.",
+          "question": "Is the SERP Checker Free Forever?"
+        },
+        "qa5": {
+          "question": "Do You Provide a SERP Checker API?",
+          "answer": "Yes, I have developed a SERP API and offer it through [SERP.ING](https://www.serp.ing). It is the most cost-effective SERP API in the industry, including all major Rich Results."
+        }
+      }
+    },
+    "serp": {
+      "featured_snippets": "Featured Snippets",
+      "people_also_ask": "People Also Ask",
+      "things_to_know": "Things To Know",
+      "x": "X",
+      "twitter": {
+        "post": {
+          "posted_on": "Posted On"
+        }
+      },
+      "top_stories": {
+        "title": "Top Stories"
+      },
+      "images": "Images",
+      "videos": "Videos",
+      "places": "Places",
+      "related_searches": "Related Searches",
+      "download_csv": "Download CSV",
+      "url": "URL filtering"
+    },
+    "meta": {
+      "default": {
+        "title": "SERP Checking - Free SERP Checker for Fast, Accurate Google Rank & Rich Results",
+        "description": "Use our free SERP checker to analyze results from 230+ countries. Get insights on Rich Results, top 100 rankings, and more. Boost your SEO with SERP Checking now!"
+      }
+    },
+    "desktop": "Desktop",
+    "snapshot": "Snapshot"
+  },
+  "home": {
+    "status": {
+      "online_google": "Online Google"
+    }
+  }
+}

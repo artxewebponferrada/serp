@@ -1,0 +1,84 @@
+{
+  "menu": {
+    "serp_checker": "SERP Checker",
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem"
+  },
+  "frontend": {
+    "go_to_homepage": "Ga naar homepage",
+    "page_not_found": "Pagina niet gevonden",
+    "home": {
+      "position": "Positie",
+      "type": "SERP Type",
+      "title": "Titel",
+      "results_for": "Resultaten voor \"{query}\"",
+      "views": {
+        "preview": "Voorvertoning"
+      },
+      "look_up": "Opzoeken",
+      "form": {
+        "query": {
+          "error": {
+            "message": "Query moet minimaal 2 tekens bevatten."
+          }
+        }
+      },
+      "faq": {
+        "title": "Veelgestelde vragen",
+        "qa1": {
+          "question": "Hoe kan ik de ranking van mijn website verbeteren?",
+          "answer": "Om de ranking van je website in de zoekresultaten van zoekmachines te verbeteren, kun je de volgende methoden gebruiken:\n\n- **Zoekmachineoptimalisatie (SEO)**:\n  Optimaliseer de inhoud, structuur en code van je website om de ranking in organische zoekresultaten te verbeteren.\n\n- **Keywordonderzoek**:\n  Kies en gebruik veelgebruikte zoekwoorden die relevant zijn voor je bedrijf.\n\n- **Hoogwaardige inhoud**:\n  Creëer waardevolle, originele en relevante inhoud die voldoet aan de zoekbehoeften van gebruikers.\n\n- **Optimalisatie van websiteprestaties**:\n  Verbeter de laadsnelheid en mobiele compatibiliteit van je website.\n\n- **Verkrijgen van kwalitatieve backlinks**:\n  Verkrijg links van andere gezaghebbende websites om de autoriteit van je site te verhogen.\n"
+        },
+        "qa2": {
+          "question": "Wat zijn Google SERP-functies?",
+          "answer": "Google SERP-functies zijn speciale resultaten die verschijnen op de zoekresultatenpagina, zoals rijke resultaten. Deze omvatten:\n\n- Uitgelichte fragmenten\n- Mensen vragen ook\n- Kenniskaarten\n- Lokale pakketten\n- Video- en afbeeldingscarrousels\n"
+        },
+        "qa3": {
+          "question": "Waarom een SERP Checker Tool gebruiken?",
+          "answer": "Een SERP Checker Tool helpt u:\n\n- De ranking van uw website bijhouden\n- SERP's analyseren uit verschillende landen en regio's\n- SERP's in verschillende talen bekijken\n- De aanwezigheid van rijke resultaten monitoren\n- SERP's vanuit elke locatie bekijken\n"
+        },
+        "qa4": {
+          "answer": "Ja, onze SERP Checker is gratis. In de toekomst kunnen er enkele gebruikslimieten zijn.",
+          "question": "Is de SERP Checker voor altijd gratis?"
+        },
+        "qa5": {
+          "question": "Biedt u een SERP Checker API aan?",
+          "answer": "Ja, ik heb een SERP API ontwikkeld en bied deze aan via [SERP.ING](https://www.serp.ing). Het is de meest kosteneffectieve SERP API in de industrie, inclusief alle belangrijke rijke resultaten."
+        }
+      }
+    },
+    "serp": {
+      "featured_snippets": "Uitgelichte fragmenten",
+      "people_also_ask": "Mensen vragen ook",
+      "things_to_know": "Dingen om te weten",
+      "x": "X",
+      "twitter": {
+        "post": {
+          "posted_on": "Gepost op"
+        }
+      },
+      "top_stories": {
+        "title": "Topverhalen"
+      },
+      "images": "Afbeeldingen",
+      "videos": "Videos",
+      "places": "Plaatsen",
+      "related_searches": "Verwante zoekopdrachten",
+      "download_csv": "CSV downloaden"
+    },
+    "meta": {
+      "default": {
+        "title": "SERP Checker - Gratis SERP Checker voor snelle, nauwkeurige Google Ranking & Rijke Resultaten",
+        "description": "Gebruik onze gratis SERP Checker om resultaten te analyseren uit meer dan 230 landen. Krijg inzichten in rijke resultaten, top 100 rankings en meer. Verbeter uw SEO nu met SERP Checker!"
+      }
+    },
+    "desktop": "Desktop",
+    "snapshot": "Momentopname"
+  },
+  "home": {
+    "status": {
+      "online_google": "Online Googlen"
+    }
+  }
+}
