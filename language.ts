@@ -101,7 +101,7 @@ export const language = [
   { "code": "sk", "name": "Slovak" },
   { "code": "sl", "name": "Slovenian" },
   { "code": "so", "name": "Somali" },
-  { "code": "es", "name": "Spanish" },
+  { "code": "es", "name": "Español" },
   { "code": "su", "name": "Sundanese" },
   { "code": "sw", "name": "Swahili" },
   { "code": "sv", "name": "Swedish" },
