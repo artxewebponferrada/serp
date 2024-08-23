@@ -195,7 +195,7 @@ export const countries = [
   { "code": "so", "name": " Somalia ", "flag": "🇸🇴" },
   { "code": "za", "name": " South Africa ", "flag": "🇿🇦" },
   { "code": "gs", "name": " South Georgia and the South Sandwich Islands ", "flag": "🇬🇸" },
-  { "code": "es", "name": " Spain ", "flag": "🇪🇸" },
+  { "code": "es", "name": " España ", "flag": "🇪🇸" },
   { "code": "lk", "name": " Sri Lanka ", "flag": "🇱🇰" },
   { "code": "sd", "name": " Sudan ", "flag": "🇸🇩" },
   { "code": "sr", "name": " Suriname ", "flag": "🇸🇷" },
