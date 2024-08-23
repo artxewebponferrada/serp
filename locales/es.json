@@ -1,13 +1,13 @@
 {
   "menu": {
     "serp_checker": "Verificador de SERP",
-    "light": "Claro",
-    "dark": "Oscuro",
+    "light": "🧒🏻 Claro",
+    "dark": "🧑🏿 Oscuro",
     "system": "Sistema"
   },
   "frontend": {
     "go_to_homepage": "Ir a la página de inicio",
-    "page_not_found": "Página no encontrada",
+    "page_not_found": "😭 Página no encontrada",
     "home": {
       "position": "Posición",
       "type": "Tipo de SERP",
@@ -20,7 +20,7 @@
       "form": {
         "query": {
           "error": {
-            "message": "La consulta debe tener al menos 2 caracteres."
+            "message": "🤨 La consulta debe tener al menos 2 caracteres"
           }
         }
       },
