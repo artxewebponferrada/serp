@@ -165,7 +165,7 @@ export function SerpForm({
                   <FormItem nospace={true} className="relative text-center">
                     <Search size={23} className="absolute left-3.5 top-3 text-muted-foreground" />
                     <FormControl>
-                      <Input type="search" className="pl-12 h-13 text-xl" placeholder="Search ..." {...field} />
+                      <Input type="search" className="pl-12 h-13 text-xl" placeholder="" {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
