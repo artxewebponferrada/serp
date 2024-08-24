@@ -1,11 +1,11 @@
-import createMiddleware from "next-intl/middleware";
 import { NextRequest, NextResponse } from "next/server";
+import createMiddleware from "next-intl/middleware";
 import { appConfig } from "./config";
 
 // Función para manejar la autenticación básica
 function basicAuth(req: NextRequest) {
   const authHeader = req.headers.get('authorization');
-  
+
   if (!authHeader) {
     return new NextResponse('Auth required', {
       status: 401,
@@ -15,12 +15,12 @@ function basicAuth(req: NextRequest) {
     });
   }
 
-  const [username, password] = Buffer.from(authHeader.split(' ')[1], 'base64')
-    .toString()
-    .split(':');
+  const base64Credentials = authHeader.split(' ')[1];
+  const credentials = Buffer.from(base64Credentials, 'base64').toString('ascii');
+  const [username, password] = credentials.split(':');
 
-  const isAuthorized =
-    username === 'admin' && password === 'supersecret'; // Cambia esto según tus necesidades
+  // Verifica las credenciales
+  const isAuthorized = username === 'admin' && password === 'supersecret';
 
   if (!isAuthorized) {
     return new NextResponse('Invalid credentials', {
@@ -31,7 +31,7 @@ function basicAuth(req: NextRequest) {
     });
   }
 
-  return null; // Retorna null si la autenticación es exitosa
+  return null; // Autenticación exitosa
 }
 
 export default async function middleware(req: NextRequest) {
@@ -42,7 +42,7 @@ export default async function middleware(req: NextRequest) {
     return authResult;
   }
 
-  // Si pasa la autenticación, procede con el middleware de internacionalización
+  // Procede con el middleware de internacionalización si la autenticación es exitosa
   const intlMiddleware = createMiddleware({
     locales: appConfig.i18n.locales,
     defaultLocale: appConfig.i18n.defaultLocale,
