@@ -11,7 +11,11 @@ export function middleware(req: NextRequest) {
     const decodedValue = Buffer.from(authValue, 'base64').toString('utf-8');
     const [user, password] = decodedValue.split(':');
 
-    if (user === 'admin' && password === 'admin') {
+    // Obtener credenciales desde variables de entorno
+    const validUser = process.env.BASIC_AUTH_USER;
+    const validPassword = process.env.BASIC_AUTH_PASSWORD;
+
+    if (user === validUser && password === validPassword) {
       // Continuar con el middleware de internacionalización después de la autenticación exitosa
       const intlMiddleware = createMiddleware({
         locales: appConfig.i18n.locales,
