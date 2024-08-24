@@ -8,8 +8,12 @@ export function middleware(request: NextRequest) {
     const authValue = basicAuth.split(' ')[1];
     const [user, password] = atob(authValue).split(':');
 
-    const validUser = process.env.BASIC_AUTH_USER;
-    const validPassword = process.env.BASIC_AUTH_PASSWORD;
+    console.log('User:', user);
+    console.log('Password:', password);
+
+    // Hardcodeamos las credenciales aquí para probar
+    const validUser = 'admin';
+    const validPassword = 'supersecret';
 
     if (user === validUser && password === validPassword) {
       return NextResponse.next();
