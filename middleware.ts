@@ -1,31 +1,25 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { appConfig } from "@/config";
-import createMiddleware from "next-intl/middleware";
 
-export function middleware(req: NextRequest) {
-  const basicAuth = req.headers.get('authorization');
+export function middleware(request: NextRequest) {
+  // Obtener el encabezado de autorización
+  const basicAuth = request.headers.get('authorization');
 
   if (basicAuth) {
+    // Decodificar las credenciales de Basic Auth
     const authValue = basicAuth.split(' ')[1];
-    const decodedValue = Buffer.from(authValue, 'base64').toString('utf-8');
-    const [user, password] = decodedValue.split(':');
+    const [user, password] = atob(authValue).split(':');
 
-    // Obtener credenciales desde variables de entorno
-    const validUser = process.env.BASIC_AUTH_USER;
-    const validPassword = process.env.BASIC_AUTH_PASSWORD;
+    // Log para depuración (considera remover en producción)
+    console.log('Decoded credentials:', user);
 
-    if (user === validUser && password === validPassword) {
-      // Continuar con el middleware de internacionalización después de la autenticación exitosa
-      const intlMiddleware = createMiddleware({
-        locales: appConfig.i18n.locales,
-        defaultLocale: appConfig.i18n.defaultLocale,
-        localePrefix: "as-needed",
-        localeDetection: true,
-        alternateLinks: true
-      });
-
-      return intlMiddleware(req); // No es necesario modificar la solicitud
+    // Verificar credenciales usando variables de entorno
+    if (
+      user === process.env.AUTH_USER &&
+      password === process.env.AUTH_PASSWORD
+    ) {
+      console.log('Authentication successful');
+      return NextResponse.next(); // Autenticación exitosa, continuar
     } else {
       console.log('Authentication failed');
     }
@@ -33,7 +27,7 @@ export function middleware(req: NextRequest) {
     console.log('Authorization header not found');
   }
 
-  // Solicitar autenticación si no es exitosa
+  // Si la autenticación falla, solicitar credenciales nuevamente
   return new NextResponse('Authentication required', {
     status: 401,
     headers: {
