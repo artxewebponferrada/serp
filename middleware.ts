@@ -6,17 +6,24 @@ export function middleware(request: NextRequest) {
 
   if (basicAuth) {
     const authValue = basicAuth.split(' ')[1];
-    const [user, password] = atob(authValue).split(':');
+    const decodedValue = atob(authValue);
+
+    console.log('Authorization Header:', basicAuth);
+    console.log('Decoded Credentials:', decodedValue);
+
+    const [user, password] = decodedValue.split(':');
 
     console.log('User:', user);
     console.log('Password:', password);
 
-    // Hardcodeamos las credenciales aquí para probar
     const validUser = 'admin';
     const validPassword = 'supersecret';
 
     if (user === validUser && password === validPassword) {
+      console.log('Authentication successful');
       return NextResponse.next();
+    } else {
+      console.log('Authentication failed');
     }
   }
 
